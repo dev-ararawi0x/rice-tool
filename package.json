@@ -1,0 +1,32 @@
+{
+    "name": "rice-tool",
+    "version": "0.0.1",
+    "description": "",
+    "type": "module",
+    "bin": {
+        "rice": "./dist/cli.js"
+    },
+    "scripts": {
+        "dev": "tsx src/cli.ts",
+        "build": "tsup src/cli.ts --format esm"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "commander": "^15.0.0"
+    },
+    "devDependencies": {
+        "@eslint/js": "^10.0.1",
+        "@types/node": "^26.6.5",
+        "eslint": "^10.13.0",
+        "globals": "^17.13.0",
+        "jiti": "^2.7.0",
+        "prettier": "3.9.10",
+        "ts-node": "^10.9.2",
+        "tsup": "^9.0.0",
+        "tsx": "^4.23.15",
+        "typescript": "^6.0.3",
+        "typescript-eslint": "^8.71.2"
+    }
+}

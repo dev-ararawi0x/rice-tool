@@ -1,0 +1,12 @@
+# Node Dependencies
+node_modules/
+
+# Build Output
+dist/
+
+# Local Testing Configs (تجاهل مجلد الإعدادات المحلي أثناء التطوير)
+.config/
+
+# Logs & Misc
+*.log
+.DS_Store
